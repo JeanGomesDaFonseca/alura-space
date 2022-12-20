@@ -6,6 +6,7 @@ import favorito from "./favorito.png"
 import open from "./open.png"
 
 export default function Galeria() {
+  console.log('fotos teste',fotos);
   return (
     <section className={styles.galeria}>
       <h2>Navegue pela Galeria</h2>
