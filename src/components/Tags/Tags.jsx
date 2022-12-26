@@ -9,7 +9,7 @@ export default function Tags() {
         <li>Estrelas</li>
         <li>Galáxias</li>
         <li>Lua</li>
-        <li>PLanetas</li>
+        <li>Planetas</li>
       </ul>
     </div>
   );
