@@ -4,6 +4,7 @@ import Menu from "../../components/Menu/Menu";
 import styles from "./PaginaInicial.module.scss";
 import Rodape from "../../components/Rodape/Rodape";
 import Galeria from "../../components/Galeria/Galeria";
+import Populares from "../../components/Populares/Populares";
 
 export default function PaginaInicial() {
   return (
@@ -17,10 +18,11 @@ export default function PaginaInicial() {
             <img src={Banner} alt="A imagem da terra vista do espaço" />
           </div>
         </section>
+        <div className={styles.galeria}>
+          <Galeria />
+          <Populares />
+        </div>
       </main>
-      <div className={styles.galeria}>
-        <Galeria />
-      </div>
       <Rodape />
     </>
   );
